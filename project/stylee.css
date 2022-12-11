@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+nav{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./image/plant.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.ul{
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    padding:  0 20px;
+    transition: .2s;
+}
+a:hover{
+    border-bottom: 4px solid #fff;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+.name{
+    margin-bottom: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+button{
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 30px;
+    width: 400px;
+    font-size: 30px;
+    background-color: transparent;
+    color: #fff;
+    border: 5px solid #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+button:hover{
+    background-color: #fff;
+    color: darkgrey;
+}
